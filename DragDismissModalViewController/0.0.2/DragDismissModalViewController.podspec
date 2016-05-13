@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "ThuyenBV" => "buithuyen48dt@gmail.com" }
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/buithuyen/DragDismissModalViewController.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/buithuyen/DragDismissModalViewController.git", :commit => 'a2df0d6' }
   s.source_files  = 'TransitionViewController/SourceFile/*.{h,m}'
   s.requires_arc = true
 end
